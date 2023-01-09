@@ -1138,7 +1138,7 @@
   )
 
   (no_connect (at 129.54 43.18) (uuid 7e9e9737-6ab6-4cc4-8746-5c57f1c9826f))
-  (no_connect (at 129.54 58.42) (uuid 7e9e9737-6ab6-4cc4-8746-5c57f1c9826f))
+  (no_connect (at 129.54 58.42) (uuid 7e9e9737-6ab6-4cc4-8746-5c57f1c98270))
   (no_connect (at 45.72 54.61) (uuid d7dcad96-1d0f-4895-a379-cf71c764dc6a))
 
   (wire (pts (xy 171.45 91.44) (xy 171.45 96.52))
@@ -1674,6 +1674,19 @@
     (uuid ffb8bba5-3f74-47d0-a35b-1a9ce8bfbc6d)
   )
 
+  (text "1" (at 270.51 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 44a01bd9-71fa-42c9-8f46-cba4b0357c87)
+  )
+  (text "macro-pad" (at 189.23 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6809de3d-3e78-4a68-90ca-7025fbc68436)
+  )
+  (text "January 8th 2023" (at 207.01 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f70f479d-6b8b-454b-b4e7-86f1403a2326)
+  )
+
   (global_label "D-" (shape input) (at 149.86 50.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0413c73f-c4ac-44e0-b3be-96a28e3bb67c)
@@ -1867,7 +1880,7 @@
     (uuid 13caffb9-d25b-4ea1-b3b0-29a35403d1e1)
     (property "Reference" "R6" (id 0) (at 85.09 86.36 90))
     (property "Value" "10k" (id 1) (at 85.09 88.9 90))
-    (property "Footprint" "MX_Alps_Hybrid:MX-2U" (id 2) (at 85.09 92.71 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 85.09 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 85.09 92.71 0)
@@ -2023,7 +2036,7 @@
     (property "Value" "D_Small" (id 1) (at 133.35 105.4099 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 130.81 104.14 90)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 130.81 104.14 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 130.81 104.14 90)
@@ -2526,7 +2539,7 @@
     (property "Value" "MX-NoLED" (id 1) (at 136.7756 140.97 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "MX_Alps_Hybrid:MX-1U" (id 2) (at 120.015 146.685 0)
+    (property "Footprint" "MX_Alps_Hybrid:MX-2U" (id 2) (at 120.015 146.685 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 120.015 146.685 0)
@@ -3049,7 +3062,7 @@
       (reference "MX10") (unit 1) (value "MX-NoLED") (footprint "MX_Alps_Hybrid:MX-1U")
     )
     (path "/9b20aec0-a8c6-40d2-89b7-7ae306896205"
-      (reference "MX11") (unit 1) (value "MX-NoLED") (footprint "MX_Alps_Hybrid:MX-1U")
+      (reference "MX11") (unit 1) (value "MX-NoLED") (footprint "MX_Alps_Hybrid:MX-2U")
     )
     (path "/98fdf841-3d16-41cc-a502-78b854026751"
       (reference "MX12") (unit 1) (value "MX-NoLED") (footprint "MX_Alps_Hybrid:MX-1U")
@@ -3073,7 +3086,7 @@
       (reference "R5") (unit 1) (value "22") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/13caffb9-d25b-4ea1-b3b0-29a35403d1e1"
-      (reference "R6") (unit 1) (value "10k") (footprint "MX_Alps_Hybrid:MX-2U")
+      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/91181626-beac-408c-a9dd-cfca1922a617"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "random-keyboard-parts:SKQG-1155865")
